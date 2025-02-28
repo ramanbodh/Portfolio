@@ -8,13 +8,23 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: aqua;
     flex-wrap: wrap;
+    font-size: 1.5rem;
+    box-shadow: 20px 6px 6px 4px black;
 }
 .right_content{
     display:flex;
     width: 40%;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
+}
+.right_content>button{
+    padding: 4px 8px;
+    box-shadow: 3px 4px 3px 0px black;
+    border:none;
+    background-color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
     
 }
