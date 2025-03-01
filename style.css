@@ -14,17 +14,25 @@ nav{
 }
 .right_content{
     display:flex;
-    width: 40%;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    gap:20px;
     
 }
-.right_content>button{
+
+.right_content .nav_btn{
+    padding: 5px 9px;
     padding: 4px 8px;
     box-shadow: 3px 4px 3px 0px black;
     border:none;
+    display: inline-block;
     background-color: white;
     border-top: 1px solid black;
     border-left: 1px solid black;
-    
+    box-sizing: border-box;
+}
+
+.right_content .nav_btn:hover {
+    padding: 5px 9px; /* Increase padding for effect */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    transform: scale(1.1); /* Slightly increase size */
 }
